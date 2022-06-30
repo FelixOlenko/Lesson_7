@@ -37,7 +37,7 @@ for (int i = 0; i < m; i++)
   }
 }
 
-Console.Write("Введите координаты позиции элемента, разделенных запятой: ");
+Console.Write("Введите координаты позиции элемента, разделенные запятой: ");
 
 string? positionElement = Console.ReadLine();
 positionElement = RemovingSpaces(positionElement);
